@@ -32,11 +32,8 @@ html {
 }
 
 .logo {
-  /* position: absolute; */
   width: 18%;
   transform: translateY(-30%);
-  /* top: 2rem;
-  left: 2rem; */
 }
 
 .title {
@@ -46,4 +43,54 @@ html {
 
 .extra-message {
   font-size: 4.5rem;
+}
+
+/* @media (max-width: 144rem) {
+  .logo {
+    width: 15%;
+    transform: translateY(-30%);
+  }
+} */
+
+@media (max-width: 90rem) {
+  .logo {
+    width: 30%;
+    transform: translateY(-30%);
+  }
+
+  .title {
+    margin-top: -8rem;
+  }
+}
+
+@media (max-width: 48rem) {
+  .logo {
+    width: 50%;
+    transform: translateY(-30%);
+  }
+
+  .title {
+    margin-top: -8rem;
+    font-size: 6rem;
+  }
+
+  .extra-message {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width: 27rem) {
+  .logo {
+    width: 65%;
+    transform: translateY(-30%);
+  }
+
+  .title {
+    margin-top: -6rem;
+    font-size: 4rem;
+  }
+
+  .extra-message {
+    font-size: 2.2rem;
+  }
 }
