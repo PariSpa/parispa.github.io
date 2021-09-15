@@ -8,9 +8,6 @@ html {
   font-size: 62.5%;
 }
 
-.container {
-}
-
 /* #9c69b9aa */
 
 .background-container {
@@ -28,7 +25,6 @@ html {
   font-family: "Dancing Script", "Sans-serif";
 
   color: #fff;
-  /* position: relative; */
 }
 
 .logo {
@@ -44,13 +40,6 @@ html {
 .extra-message {
   font-size: 4.5rem;
 }
-
-/* @media (max-width: 144rem) {
-  .logo {
-    width: 15%;
-    transform: translateY(-30%);
-  }
-} */
 
 /*?  1440px  */
 
