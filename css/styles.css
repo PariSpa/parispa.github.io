@@ -14,7 +14,7 @@ html {
 /* #9c69b9aa */
 
 .background-container {
-  background-image: linear-gradient(to bottom, #ffffffaa, #9c69b9aa),
+  background-image: linear-gradient(to bottom, #ffffffcc, #9c69b9aa),
     url(../img/pexels-freestocksorg-332046.jpg);
   background-size: cover;
 
@@ -52,6 +52,8 @@ html {
   }
 } */
 
+/*?  1440px  */
+
 @media (max-width: 90rem) {
   .logo {
     width: 30%;
@@ -62,6 +64,17 @@ html {
     margin-top: -8rem;
   }
 }
+
+/*?  1024px  */
+
+@media (max-width: 64rem) {
+  .logo {
+    width: 45%;
+    transform: translateY(-30%);
+  }
+}
+
+/*?  768px  */
 
 @media (max-width: 48rem) {
   .logo {
@@ -78,6 +91,8 @@ html {
     font-size: 3.2rem;
   }
 }
+
+/*?  432px  */
 
 @media (max-width: 27rem) {
   .logo {
